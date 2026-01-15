@@ -1,13 +1,14 @@
 import "../global.css"
+import Navbar from "./Navbar"
 
-function App() {
+export default function App() {
   
 
   return (
     <>
-      
+      <Navbar/>
     </>
   )
 }
 
-export default App
+
